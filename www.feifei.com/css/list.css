@@ -1,0 +1,116 @@
+.ms{
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    padding-left: 10px;
+    border-left: 2px solid rgb(196,0,0);
+}
+.list{
+    height: 30px;
+    margin-top: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(196,0,0);
+}
+.list ul li{
+    float: left;
+    vertical-align: bottom;
+}
+.list ul li a{
+    padding-left: 55px;
+    line-height: 30px;
+}
+.list ul li:nth-child(-n+3){
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.list ul li:last-child::after{
+    content: '\e685';
+    font-family: iconfont;
+    font-size: 15px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.phones{
+    overflow: hidden;
+}
+.box{
+    float: left;
+    position: relative;
+    width: 290px;
+    height: 460px;
+    margin-right: 13.33px;
+    margin-bottom: 10px;
+    background-color: rgb(255,255,255);
+}
+.box img{
+    width: 100%;
+    height: 60%;
+}
+.box:nth-child(4n){
+    margin-right: 0;
+}
+.box p{
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.box:hover{
+    border:1px solid red
+}
+.prize{
+    margin-top: 3px;
+}
+.htwo{
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    color: red;
+}
+.hfour{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0;
+    color: gray;
+    padding-left: 10px;
+    text-decoration: line-through;
+}
+.btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 290px;
+    height: 60px;
+    font-size: 25px;
+    color: white;
+    background-color: rgb(177,24,26);
+    border-color: transparent;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.scroll{
+    display: inline-block;
+    width: 100px;
+    height: 10px;
+    border:1px solid red;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.sale{
+    margin-left: 25px;
+}
+.sale span{
+    color: red;
+}
+.info{
+    width: 30px;
+    height: 10px;
+    background-color: red; 
+    border-radius: 10px;
+}
+.scroll:hover .info{
+    width: 100px;
+    transition: all .7s;
+}
