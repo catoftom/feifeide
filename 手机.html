@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+            width: 290px;
+            height: 460px;
+            border: 1px solid red;
+        }
+        img{
+            width: 100%;
+            height: 60%;
+        }
+        .box p{
+            padding: 0 15px;
+            font-size: 15px;
+            font-weight: 300;
+        }
+        .prize{
+            margin-top: -30px;
+        }
+        .prize h2{
+            display: inline-block;
+            padding-left: 20px;
+            margin-bottom: 0;
+            color: red;
+        }
+        .prize h4{
+            display: inline-block;
+            vertical-align: bottom;
+            margin-bottom: 0;
+            color: gray;
+            padding-left: 10px;
+            text-decoration: line-through;
+        }
+        button{
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 290px;
+            height: 60px;
+            font-size: 25px;
+            color: white;
+            background-color: rgb(177,24,26);
+            border-color: transparent;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        .scroll{
+            display: inline-block;
+            width: 100px;
+            height: 10px;
+            border:1px solid red;
+            border-radius: 10px;
+            vertical-align: middle;
+        }
+        .sale{
+            margin-left: 25px;
+        }
+        .sale span{
+            color: red;
+        }
+        .info{
+            width: 30px;
+            height: 10px;
+            background-color: red; 
+            border-radius: 10px;
+        }
+        .scroll:hover .info{
+            width: 100px;
+            transition: all .7s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="../html使用手册/8OO~3[@KP[YY9U]6K$~V]9M.png" alt="">
+        <p>Apple苹果iPhone 6s Plus(A1699) 32G金色 联通移动电信4G手机</p>
+        <div class="prize">
+            <h2>￥6088</h2><h4>￥6988</h4>
+            <div class="sale">已售84%&nbsp;<div class="scroll">
+                <div class="info"></div>
+            </div>&nbsp;剩余<span>29</span>件</div>
+            <button>立即抢购</button>
+        </div>
+    </div>
+</body>
+</html>
